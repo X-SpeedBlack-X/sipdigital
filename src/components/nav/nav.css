@@ -1,0 +1,40 @@
+.container {
+  width: 13rem;
+  height: 100%;
+  background: var(--bg-aside);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.icon-aside {
+  margin-right: 0.6rem;
+}
+
+a {
+  color: var(--color-text-gray);
+  text-decoration: none;
+  list-style: none;
+  transition: all 400ms ease;
+}
+
+aside a:hover {
+  color: var(--color-neutral-black);
+}
+
+.active {
+  color: var(--color-text-blue);
+}

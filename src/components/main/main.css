@@ -1,0 +1,97 @@
+main {
+  max-width: 1250px;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-main {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  border-radius: 0.6rem;
+  margin: 2rem 1rem;
+  padding: 0.3rem;
+  width: 14rem;
+}
+
+.icon-search {
+  color: var(--color-text-blue);
+  cursor: pointer;
+}
+
+.bell-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.bell-user span {
+  position: absolute;
+  top: 0;
+  background: var(--color-text-blue);
+  color: #fff;
+  width: 1.2rem;
+  text-align: center;
+  border-radius: 1rem;
+  left: 12px;
+  z-index: 10;
+}
+
+.icon-bell {
+  color: var(--color-gray-dark);
+  transform: rotate(30deg);
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.user-photo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 11rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 0 10px;
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+  gap: 1rem;
+  background: var(--bg-aside);
+  height: 5rem;
+  width: 20rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 1px 0;
+}
+
+.card h3 {
+  font-size: 1rem;
+}
+
+.card small {
+  bottom: 1rem;
+  color: var(--color-text-blue);
+}
+
+.icon-main {
+  color: var(--color-text-blue);
+  font-size: 2rem;
+}

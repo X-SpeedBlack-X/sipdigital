@@ -1,0 +1,47 @@
+table {
+  width: 100%;
+}
+
+tbody tr:nth-child(even) {
+  background: var(--bg-main);
+}
+
+th,
+td,
+button {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid black;
+  text-align: left;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+td {
+  font-size: 0.875rem;
+  margin: 0 0.5rem 0;
+  color: var(--color-text-gray);
+}
+
+td span {
+  color: var(--color-text-blue);
+}
+
+.card-table {
+  background: var(--bg-aside);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 4rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+button {
+  background: var(--bg-gradient);
+  color: var(--bg-aside);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
